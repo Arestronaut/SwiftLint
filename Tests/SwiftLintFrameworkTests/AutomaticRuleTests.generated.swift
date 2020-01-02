@@ -492,6 +492,12 @@ class OperatorUsageWhitespaceRuleTests: XCTestCase {
     }
 }
 
+class OptionalEnumCaseMatchingRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(OptionalEnumCaseMatchingRule.description)
+    }
+}
+
 class OverriddenSuperCallRuleTests: XCTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(OverriddenSuperCallRule.description)

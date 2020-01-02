@@ -10,7 +10,11 @@
 
 #### Enhancements
 
-* None.
+* Add `optional_enum_case_matching` opt-in rule to validate that
+  optional enum cases are matched without using `?` when using Swift 5.1 or
+  above. See [SR-7799](https://bugs.swift.org/browse/SR-7799) for more
+  details.  
+  [Marcelo Fabri](https://github.com/marcelofabri)
 
 #### Bug Fixes
 
